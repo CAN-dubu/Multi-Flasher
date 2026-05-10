@@ -36,8 +36,6 @@ run.bat
 | `ESP32-S3-ETH-CAN485` | `Flash`, `Test` |
 | `ST-LINK V2` | `Flash` |
 
-`Mode` 선택은 제거되었고, 현재는 `Board`와 `Do` 조합으로 동작합니다. 내부 기능은 기존 Flash/Test 흐름을 유지합니다.
-
 ## ESP Flash
 
 ESP 보드를 USB로 연결하면 프로그램이 포트를 감지합니다. `Do`가 `Flash`인 경우 선택된 보드 설정에 맞춰 펌웨어를 다운로드합니다.
